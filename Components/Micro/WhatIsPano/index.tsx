@@ -13,9 +13,9 @@ const WhatIsPano = (props: Props) => {
           <p className='text-white text-center z-[1] text-[2vh]'>
             $PANO is not just another cryptocurrency; it is the lifeblood of our immersive gaming universe. As an artist-driven project,<br /> we are creating a unique gaming experience where players can immerse themselves in captivating virtual worlds, conquer<br /> challenges, and earn real rewards powered by $PANO .
           </p>
-          <p className='text-[#fcc054] mt-[2%] z-[1] text-center text-[2vh]'>
+          <a href='https://medium.com/@PanoVerse/panoverse-the-ultimate-play-to-earn-adventure-c0f5edfe21e6' target='__blank' className='text-[#fcc054] mt-[2%] z-[1] text-center text-[2vh]'>
             read more
-          </p>
+          </a>
         </div>
       </div>
     </div>

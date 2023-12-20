@@ -26,7 +26,7 @@ const Footer = (props: Props) => {
           </p>
         </div>
         <div className='flex gap-[2rem]'>
-          <NavLink href='https://medium.com/PanoVerse'>FAQ</NavLink>
+          <NavLink href='https://medium.com/@PanoVerse/panoverse-the-ultimate-play-to-earn-adventure-c0f5edfe21e6'>FAQ</NavLink>
           <NavLink href='/updates'>Updates</NavLink>
           <NavLink href='/'>Contact</NavLink>
           <NavLink href='/about'>About</NavLink>
@@ -39,7 +39,7 @@ const Footer = (props: Props) => {
         <a href='https://twitter.com/panoverse_' target='_blank' rel='noreferrer'>
           <FaXTwitter className='text-white text-[2rem]' />
         </a>
-        <a href='https://medium.com/PanoVerse' target='_blank' rel='noreferrer'>
+        <a href='https://medium.com/@PanoVerse/panoverse-the-ultimate-play-to-earn-adventure-c0f5edfe21e6' target='_blank' rel='noreferrer'>
           <FaMedium className='text-white text-[2rem]' />
         </a>
         {/* <a href='https://discord.gg/panoramic' target='_blank' rel='noreferrer'>

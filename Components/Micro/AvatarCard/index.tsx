@@ -22,7 +22,7 @@ const AvatarCard = ({
   const [isHover, setIsHover] = useState(false)
 
   return (
-    <div onMouseEnter={() => {
+    <a href={`https://twitter.com/${handle.replace('@', '')}`} target='__blank' onMouseEnter={() => {
       setIsHover(true)
     }} onMouseLeave={() => {
       setIsHover(false)
@@ -38,7 +38,7 @@ const AvatarCard = ({
         <p className='text-[rgba(255,255,255,0.5)] text-[1rem]'>{handle}</p>
 
       </div>
-    </div>
+    </a>
   )
 }
 

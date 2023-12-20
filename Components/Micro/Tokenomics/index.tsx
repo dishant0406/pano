@@ -23,12 +23,16 @@ const CardWrapper = ({ children }: any) => {
 
 const Tokenomics = (props: Props) => {
   const imageRef = useRef<HTMLImageElement>(null)
+  const imageRef2 = useRef<HTMLImageElement>(null)
 
   useEffect(() => {
     //rotate on scroll
     const handleScroll = () => {
       if (imageRef.current) {
         imageRef.current.style.transform = `rotate(${window.scrollY / 5}deg)`
+      }
+      if (imageRef2.current) {
+        imageRef2.current.style.transform = `rotate(-${window.scrollY / 5}deg)`
       }
     }
     window.addEventListener('scroll', handleScroll)
@@ -41,22 +45,23 @@ const Tokenomics = (props: Props) => {
   return (
     <div className='my-[5vh] overflow-hidden px-[10%] py-[2%] relative h-[70vh] w-full'>
       <Image ref={imageRef} alt='mandal' src='/assets/images/util/coin.png' height={2000} width={2000} className='absolute top-0 right-[-18%] w-auto h-full' />
-      <p className='text-white text-[6vh] '>
+      <Image ref={imageRef2} alt='mandal' src='/assets/images/util/coin.png' height={2000} width={2000} className='absolute top-0 left-[-18%] w-auto h-full' />
+      <p className='text-white w-full text-center text-[6vh] '>
         Tokenomics
       </p>
-      <div className='mt-[3%] flex flex-col gap-[2rem]'>
+      <div className='mt-[3%] flex items-center flex-col gap-[2rem]'>
         <CardWrapper>
-          <p className='text-white  text-[2vh]'>
+          <p className='text-white  text-[2.5vh]'>
             Max Supply: 28M $PANO
           </p>
         </CardWrapper>
         <CardWrapper>
-          <p className='text-white  text-[2vh]'>
+          <p className='text-white  text-[2.5vh]'>
             Circulating Supply: 28M $PANO
           </p>
         </CardWrapper>
         <CardWrapper>
-          <p className='text-white  text-[2vh]'>
+          <p className='text-white  text-[2.5vh]'>
             Buy/Sell = 5% Tax
           </p>
         </CardWrapper>

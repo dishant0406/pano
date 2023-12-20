@@ -14,9 +14,9 @@ const CTA = (props: Props) => {
       <p className='text-white text-center mt-[2%] z-[1] text-[2vh]'>
         At $PANO, our vision is to blend the worlds of art and gaming seamlessly, fostering a creative and immersive<br /> environment where artists and gamers can converge, collaborate, and prosper together.
       </p>
-      <button className='bg-none mt-[3%] z-[1] border-[3px] transition-all duration-300 hover:shadow-[0px_0px_45px_2px_rgba(244,_197,_92,_0.25)] border-[#F7D079] text-white rounded-[5rem] px-[3rem] py-[1rem] text-[20px]'>
+      <a href='https://t.me/PanoVerse' target='__blank' className='bg-none mt-[3%] z-[1] border-[3px] transition-all duration-300 hover:shadow-[0px_0px_45px_2px_rgba(244,_197,_92,_0.25)] border-[#F7D079] text-white rounded-[5rem] px-[3rem] py-[1rem] text-[20px]'>
         Join Us
-      </button>
+      </a>
     </div>
   )
 }
