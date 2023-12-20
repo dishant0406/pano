@@ -3,12 +3,12 @@ import { Roboto } from 'next/font/google'
 import localFont from 'next/font/local'
 import './globals.css'
 
-export const roboto = Roboto({
+const roboto = Roboto({
   weight: ["400", "500", "700"],
   subsets: ["latin-ext"],
 })
 
-export const azonix = localFont({
+const azonix = localFont({
   src: '../public/fonts/azonix.woff2',
 })
 

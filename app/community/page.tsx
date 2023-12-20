@@ -106,6 +106,20 @@ const Commnity = (props: Props) => {
           <ProfileCard handle='@martaverse' discord='@discord' name='Windy' role='Junior Developer' src='/assets/images/characters/3.jpeg' />
           <ProfileCard handle='@martaverse' discord='@discord' name='Ciabot' role='Lead Solidity Developer' src='/assets/images/characters/4.jpeg' />
         </div>
+        <div className='w-full px-[5%] flex mt-[3%] justify-between'>
+          <ProfileCard handle='@martaverse' discord='@discord' name='Pranav' role='Head of Operations' src='/assets/images/characters/5.jpeg' />
+          <ProfileCard handle='@martaverse' discord='@discord' name='Sorcerer' role='Head of Community' src='/assets/images/characters/6.jpeg' />
+          <ProfileCard handle='@martaverse' discord='@discord' name='Pingu' role='Advisor' src='/assets/images/characters/7.jpeg' />
+          <ProfileCard handle='@martaverse' discord='@discord' name='BernieFrogger' role='Advisor' src='/assets/images/characters/8.jpeg' />
+        </div>
+      </div>
+      <div className='mb-[10vh] w-full flex items-center flex-col'>
+        <p className='text-white text-[6vh] '>
+          Contact Us
+        </p>
+        <p className='text-white mt-[2%] z-[1] text-[2vh]'>
+          Drop us a mail at <span className='text-[#fcc054]'>inquiries@thepanoramic.art</span>
+        </p>
       </div>
       <Footer />
     </>

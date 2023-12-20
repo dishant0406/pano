@@ -1,6 +1,10 @@
 import React from 'react'
-import { azonix } from '@/app/layout'
+import localFont from 'next/font/local'
 import NavLink from '../Nav/NavLink'
+
+const azonix = localFont({
+  src: '../public/fonts/azonix.woff2',
+})
 
 //icons
 import { FaTelegramPlane, } from "react-icons/fa";
@@ -29,18 +33,18 @@ const Footer = (props: Props) => {
         </div>
       </div>
       <div className='w-full flex justify-end gap-[2rem] my-[2rem]'>
-        <a href='https://t.me/panoramicofficial' target='_blank' rel='noreferrer'>
+        <a href='https://t.me/PanoVerse' target='_blank' rel='noreferrer'>
           <FaTelegramPlane className='text-white text-[2rem]' />
         </a>
-        <a href='https://twitter.com/panoramicdefi' target='_blank' rel='noreferrer'>
+        <a href='https://twitter.com/panoverse_' target='_blank' rel='noreferrer'>
           <FaXTwitter className='text-white text-[2rem]' />
         </a>
-        <a href='https://panoramicdefi.medium.com/' target='_blank' rel='noreferrer'>
+        <a href='https://medium.com/PanoVerse' target='_blank' rel='noreferrer'>
           <FaMedium className='text-white text-[2rem]' />
         </a>
-        <a href='https://discord.gg/panoramic' target='_blank' rel='noreferrer'>
+        {/* <a href='https://discord.gg/panoramic' target='_blank' rel='noreferrer'>
           <FaDiscord className='text-white text-[2rem]' />
-        </a>
+        </a> */}
 
 
       </div>
