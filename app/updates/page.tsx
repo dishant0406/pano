@@ -40,7 +40,7 @@ const About = (props: Props) => {
         </div>
       </div>
       <div className='w-full py-[10vh] flex flex-col items-center'>
-        <p className={`text-white text-[7vh] ${azonix.className} font-bold`}>Q-124</p>
+        <p className={`text-white text-[7vh] ${azonix.className} font-bold`}>Q1-24</p>
 
       </div>
       <div className='w-full mb-[10vh] relative flex h-[100vh] justify-center'>
