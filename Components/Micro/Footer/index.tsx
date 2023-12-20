@@ -3,7 +3,7 @@ import localFont from 'next/font/local'
 import NavLink from '../Nav/NavLink'
 
 const azonix = localFont({
-  src: '../../public/fonts/azonix.woff2',
+  src: '../../../public/fonts/azonix.woff2',
 })
 
 //icons
