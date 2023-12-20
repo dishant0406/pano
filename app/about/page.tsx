@@ -73,17 +73,19 @@ const Commnity = (props: Props) => {
       <div className='w-full px-[5%] my-[10vh]'>
         <div style={cardstyle} className='w-full h-[40vh] flex'>
           <div className='h-full p-[5%] relative w-[50%]'>
-            <img src='/assets/images/util/fight.png' alt='fight' className='w-full absolute top-0 left-0 object-cover h-full opacity-10  ' />
-            <p className='text-white text-[4vh] '>
-              Bridging the World of
-              Art and Gaming
-            </p>
-            <p className='text-white/50 my-[3%] z-[1] text-[2vh]'>
-              At $PANO, our vision is to blend the worlds of art and gaming seamlessly, fostering a creative and immersive environment where artists and gamers can converge, collaborate, and prosper together.
-            </p>
-            <a href='https://medium.com/@PanoVerse/panoverse-the-ultimate-play-to-earn-adventure-c0f5edfe21e6' target='__blank' className='bg-none border-[3px] border-[#F7D079] text-white rounded-[5rem] px-[2rem] py-[0.5rem] text-[20px]'>
-              Read more
-            </a>
+            <img src='/assets/images/util/fight.png' alt='fight' className='w-full z-0 absolute top-0 left-0 object-cover h-full opacity-10  ' />
+            <div className='h-full w-full z-[1] flex flex-col justify-center p-[5%] absolute top-0 left-0'>
+              <p className='text-white text-[4vh] '>
+                Bridging the World of
+                Art and Gaming
+              </p>
+              <p className='text-white/50 my-[3%] text-[2vh]'>
+                At $PANO, our vision is to blend the worlds of art and gaming seamlessly, fostering a creative and immersive environment where artists and gamers can converge, collaborate, and prosper together.
+              </p>
+              <a href='https://medium.com/@PanoVerse/panoverse-the-ultimate-play-to-earn-adventure-c0f5edfe21e6' target='__blank' className='bg-none border-[3px] border-[#F7D079] text-white rounded-[5rem] w-fit px-[2rem] py-[0.5rem] text-[20px]'>
+                Read more
+              </a>
+            </div>
           </div>
           <div style={{
             background: `url('/assets/images/util/welcome.png')`,
