@@ -5,8 +5,8 @@ type Props = {}
 const CTA = (props: Props) => {
   return (
     <div className='w-full flex flex-col items-center overflow-hidden relative h-[90vh] mt-[10vh]'>
-      <div className='w-full flex justify-center z-0 bottom-[-60%] left-0 absolute'>
-        <img src='/assets/images/util/coin.png' alt='cta' className='w-[50vw] h-auto' />
+      <div className='w-full flex justify-center z-0 bottom-[0] left-0 absolute'>
+        <img src='/assets/images/mandal2.png' alt='cta' className='w-[50vw] h-auto' />
       </div>
       <p className='text-white text-center text-[6vh] '>
         Bringing the World of <br /> Art and Gaming

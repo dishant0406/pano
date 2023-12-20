@@ -30,12 +30,12 @@ const ProfileCard = ({
       </div>
       <div className='flex justify-end gap-[1rem] px-[2%] mt-[1rem] w-full '>
 
-        <a href={handle} target='_blank'>
+        {handle && <a href={handle} target='_blank'>
           <FaXTwitter className='text-[white] text-[2vh]' />
-        </a>
-        <a href={discord} target='_blank'>
+        </a>}
+        {handle && <a href={discord} target='_blank'>
           <FaDiscord className='text-[white] text-[2vh]' />
-        </a>
+        </a>}
       </div>
     </div>
   )

@@ -26,10 +26,10 @@ const Footer = (props: Props) => {
           </p>
         </div>
         <div className='flex gap-[2rem]'>
-          <NavLink href='/'>FAQ</NavLink>
-          <NavLink href='/'>Updates</NavLink>
+          <NavLink href='https://medium.com/PanoVerse'>FAQ</NavLink>
+          <NavLink href='/updates'>Updates</NavLink>
           <NavLink href='/'>Contact</NavLink>
-          <NavLink href='/'>Community</NavLink>
+          <NavLink href='/about'>About</NavLink>
         </div>
       </div>
       <div className='w-full flex justify-end gap-[2rem] my-[2rem]'>
