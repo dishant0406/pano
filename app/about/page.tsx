@@ -81,9 +81,9 @@ const Commnity = (props: Props) => {
             <p className='text-white/50 my-[3%] z-[1] text-[2vh]'>
               At $PANO, our vision is to blend the worlds of art and gaming seamlessly, fostering a creative and immersive environment where artists and gamers can converge, collaborate, and prosper together.
             </p>
-            <Link href={'/'} className='bg-none border-[3px] border-[#F7D079] text-white rounded-[5rem] px-[2rem] py-[0.5rem] text-[20px]'>
+            <a href='https://medium.com/@PanoVerse/panoverse-the-ultimate-play-to-earn-adventure-c0f5edfe21e6' target='__blank' className='bg-none border-[3px] border-[#F7D079] text-white rounded-[5rem] px-[2rem] py-[0.5rem] text-[20px]'>
               Read more
-            </Link>
+            </a>
           </div>
           <div style={{
             background: `url('/assets/images/util/welcome.png')`,
@@ -101,19 +101,19 @@ const Commnity = (props: Props) => {
 
         </p>
         <div className='w-full px-[5%] flex mt-[3%] justify-between'>
-          <ProfileCard handle='@martaverse' discord='@discord' name='Nishant' role='Founder & lead artist' src='/assets/images/characters/1.jpeg' />
-          <ProfileCard handle='@martaverse' discord='@discord' name='Divye' role='Lead Developer and Artist' src='/assets/images/characters/2.jpeg' />
-          <ProfileCard handle='@martaverse' discord='@discord' name='Windy' role='Junior Developer' src='/assets/images/characters/3.jpeg' />
-          <ProfileCard handle='@martaverse' discord='@discord' name='Ciabot' role='Lead Solidity Developer' src='/assets/images/characters/4.jpeg' />
+          <ProfileCard handle='https://x.com/panoramic_art?s=21' name='Nishant' role='Founder & lead artist' src='/assets/images/characters/1.jpeg' />
+          <ProfileCard handle='https://x.com/meenadivya18?s=21' name='Divya' role='Lead Developer and Artist' src='/assets/images/characters/2.jpeg' />
+          <ProfileCard name='Windy' role='Junior Developer' src='/assets/images/characters/3.jpeg' />
+          <ProfileCard handle='https://x.com/ciab0tta?s=21' name='Ciabot' role='Lead Solidity Developer' src='/assets/images/characters/4.jpeg' />
         </div>
         <div className='w-full px-[5%] flex mt-[3%] justify-between'>
-          <ProfileCard handle='@martaverse' discord='@discord' name='Pranav' role='Head of Operations' src='/assets/images/characters/5.jpeg' />
-          <ProfileCard handle='@martaverse' discord='@discord' name='Sorcerer' role='Head of Community' src='/assets/images/characters/6.jpeg' />
-          <ProfileCard handle='@martaverse' discord='@discord' name='Pingu' role='Advisor' src='/assets/images/characters/7.jpeg' />
-          <ProfileCard handle='@martaverse' discord='@discord' name='BernieFrogger' role='Advisor' src='/assets/images/characters/8.jpeg' />
+          <ProfileCard name='Pranav' role='Head of Operations' src='/assets/images/characters/5.jpeg' />
+          <ProfileCard name='Sorcerer' role='Head of Community' src='/assets/images/characters/6.jpeg' />
+          <ProfileCard handle='https://x.com/pingugems?s=21' name='Pingu' role='Advisor' src='/assets/images/characters/7.jpeg' />
+          <ProfileCard handle='https://x.com/berniefrogger?s=21' name='BernieFrogger' role='Advisor' src='/assets/images/characters/8.jpeg' />
         </div>
         <div className='w-full px-[5%] flex mt-[3%] justify-center'>
-          <ProfileCard handle='@martaverse' discord='@discord' name='CryptoSimon' role='Advisor' src='/assets/images/characters/5.jpeg' />
+          <ProfileCard name='CryptoSimon' role='Advisor' src='/assets/images/characters/5.jpeg' />
         </div>
       </div>
       <div className='mb-[10vh] w-full flex items-center flex-col'>

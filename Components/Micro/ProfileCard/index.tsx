@@ -5,9 +5,9 @@ import { FaXTwitter, FaDiscord } from "react-icons/fa6";
 type Props = {
   src: string
   name: string
-  handle: string
+  handle?: string
   role: string,
-  discord: string
+  discord?: string
 }
 
 
@@ -33,7 +33,7 @@ const ProfileCard = ({
         {handle && <a href={handle} target='_blank'>
           <FaXTwitter className='text-[white] text-[2vh]' />
         </a>}
-        {handle && <a href={discord} target='_blank'>
+        {discord && <a href={discord} target='_blank'>
           <FaDiscord className='text-[white] text-[2vh]' />
         </a>}
       </div>
