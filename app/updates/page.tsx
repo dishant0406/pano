@@ -22,21 +22,25 @@ const About = (props: Props) => {
       </div>
       <div className='w-full mb-[10vh] relative flex h-[200vh] justify-center'>
         <div className='absolute w-full h-full flex items-center justify-center'>
+
           <div style={{
             background: 'radial-gradient(103725994.26% 84.24% at 50% 49.16%, #F4C55C 0%, #000 88.54%)'
           }} className='w-[3px] h-full'></div>
         </div>
+        <div style={{
+          background: 'radial-gradient(103725994.26% 84.24% at 50% 49.16%, #F4C55C 0%, #000 88.54%)',
+          clipPath: 'polygon(100% 0, 0 0, 50% 100%)'
+        }} className='w-[1.5rem] sticky top-[20vh] mt-[0.5rem] h-[1.5rem]'></div>
         <div className='absolute  w-full h-full flex flex-col items-center justify-between'>
           <Step left={true} completed title='Launch of Pano' />
           <Step completed title='Dextools Update' />
           <Step title='Community Development' left />
           <Step completed title='Coingeko Listing' />
           <Step title='Twitter Raids' left />
-          <Step title='Increase LP Gradually' />
+          <Step upcoming title={'Influencer Marketing'} />
           <Step title='Marketing Begins' left />
           <Step title='Alpha Callers' />
           <Step left title={'AMA  + Paid Collaborations'} />
-          <Step upcoming title={'Influencer Marketing'} />
         </div>
       </div>
       <div className='w-full py-[10vh] flex flex-col items-center'>
@@ -50,10 +54,10 @@ const About = (props: Props) => {
           }} className='w-[3px] h-full'></div>
         </div>
         <div className='absolute opacity-50 w-full h-full flex flex-col items-center justify-between'>
-          <Step left={true} completed title='Alpha testing' />
-          <Step completed title='Beta Testing' />
-          <Step completed title='Marketing for Game Begins' left />
-          <Step completed title='Launch of Game' />
+          <Step noSubText={true} left={true} completed title='Alpha testing' />
+          <Step noSubText={true} completed title='Beta Testing' />
+          <Step noSubText={true} completed title='Marketing for Game Begins' left />
+          <Step noSubText={true} completed title='Launch of Game' />
         </div>
       </div>
       <div className='w-full flex justify-center z-0'>
