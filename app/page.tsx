@@ -20,7 +20,7 @@ export default function Home() {
         <div className='h-[100vh] my-shadow bg-black/20 w-full '>
           <NavBar />
           <div className='w-full h-[calc(100%-100px)] flex items-center justify-center'>
-            <Image alt='Welcome to Panoverse' src='/assets/svg/welcome.svg' className='md:w-[40%] ' width={700} height={700} />
+            <Image alt='Welcome to Panoverse' src='/assets/svg/welcome.svg' className='md:w-[40%] w-[80%] ' width={700} height={700} />
           </div>
         </div>
         <VideoPlayer />

@@ -15,7 +15,7 @@ const cardStyles = {
 
 const CardWrapper = ({ children }: any) => {
   return (
-    <div style={cardStyles} className={'w-[30vw] hover:border-[#fcc054] cursor-pointer transition-all duration-300 border-white border  flex items-center justify-center h-[10vh]'}>
+    <div style={cardStyles} className={'md:w-[30vw] w-[90vw] hover:border-[#fcc054] cursor-pointer transition-all duration-300 border-white border  flex items-center justify-center h-[10vh]'}>
       {children}
     </div>
   )
@@ -43,9 +43,9 @@ const Tokenomics = (props: Props) => {
     , [])
 
   return (
-    <div className='my-[5vh] overflow-hidden px-[10%] py-[2%] relative h-[70vh] w-full'>
-      <Image ref={imageRef} alt='mandal' src='/assets/images/util/coin.png' height={2000} width={2000} className='absolute top-0 right-[-18%] w-auto h-full' />
-      <Image ref={imageRef2} alt='mandal' src='/assets/images/util/coin.png' height={2000} width={2000} className='absolute top-0 left-[-18%] w-auto h-full' />
+    <div className='my-[5vh] overflow-hidden px-[10%] py-[2%] relative md:h-[70vh] w-full'>
+      <Image ref={imageRef} alt='mandal' src='/assets/images/util/coin.png' height={2000} width={2000} className='absolute md:inline-block hidden top-0 right-[-18%] w-auto h-full' />
+      <Image ref={imageRef2} alt='mandal' src='/assets/images/util/coin.png' height={2000} width={2000} className='absolute md:inline-block hidden top-0 left-[-18%] w-auto h-full' />
       <p className='text-white w-full text-center text-[6vh] '>
         Tokenomics
       </p>

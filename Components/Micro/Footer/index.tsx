@@ -15,8 +15,8 @@ type Props = {}
 const Footer = (props: Props) => {
   return (
     <div className='w-full px-[5%] border-t border-[#F4C55C] pt-[7vh]'>
-      <div className='w-full flex justify-between'>
-        <div>
+      <div className='w-full flex md:items-start items-center md:flex-row flex-col justify-between'>
+        <div className='flex flex-col md:items-start md:pb-0 pb-[2rem] items-center'>
           <p className={`text-white ${azonix.className} text-[4vh]`}>PANOVERSE</p>
           <p className='text-white text-[1.5vh]'>
             Copyright {

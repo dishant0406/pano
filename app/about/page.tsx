@@ -38,10 +38,10 @@ const paraData = [
 const Para = ({ title, text }: { title: string, text: string }) => {
   return (
     <div className='mb-[10vh]'>
-      <p className='text-white text-[6vh] '>
+      <p className='text-white md:text-start text-center text-[6vh] '>
         {title}
       </p>
-      <p className='text-white/50 mt-[1%] leading-[6vh] z-[1] text-[2vh]'>
+      <p className='text-white/50 md:text-start text-center mt-[1%] leading-[6vh] z-[1] text-[2vh]'>
         {text}
       </p>
     </div>
@@ -71,8 +71,8 @@ const Commnity = (props: Props) => {
         }
       </div>
       <div className='w-full px-[5%] my-[10vh]'>
-        <div style={cardstyle} className='w-full h-[40vh] flex'>
-          <div className='h-full p-[5%] relative w-[50%]'>
+        <div style={cardstyle} className='w-full md:flex-row flex-col h-[90vh] md:h-[40vh] flex'>
+          <div className='h-full p-[5%] relative w-full md:w-[50%]'>
             <img src='/assets/images/util/fight.png' alt='fight' className='w-full z-0 absolute top-0 left-0 object-cover h-full opacity-10  ' />
             <div className='h-full w-full z-[1] flex flex-col justify-center p-[5%] absolute top-0 left-0'>
               <p className='text-white text-[4vh] '>
@@ -91,30 +91,30 @@ const Commnity = (props: Props) => {
             background: `url('/assets/images/util/welcome.png')`,
             backgroundSize: 'cover',
             backgroundPosition: 'center'
-          }} className='h-full w-[50%]'></div>
+          }} className='h-full w-full md:w-[50%]'></div>
         </div>
       </div>
       <div className='mb-[10vh] w-full flex items-center flex-col'>
         <p className='text-white text-center text-[6vh] '>
           About Team
         </p>
-        <p className='text-white text-center mt-[2%] w-[50vw] leading-[4vh] z-[1] text-[2.5vh]'>
+        <p className='text-white text-center mt-[2%] w-[90vw] md:w-[50vw] leading-[4vh] z-[1] text-[2vh] md:text-[2.5vh]'>
           Introducing the A-team, the ingenious creators shaping the Panoverse. With diverse talents and unwavering passion, each member adds a unique brushstroke to our imaginative canvas. Together, we craft extraordinary experiences that transcend boundaries.
 
         </p>
-        <div className='w-full px-[5%] flex mt-[3%] justify-between'>
+        <div className='w-full px-[5%] md:mb-0 mb-[2rem] md:flex-row flex-col md:gap-0 gap-[2rem] md:items-start items-center flex mt-[3%] justify-between'>
           <ProfileCard handle='https://x.com/panoramic_art?s=21' name='Nishant' role='Founder & lead artist' src='/assets/images/characters/1.jpeg' />
           <ProfileCard handle='https://x.com/meenadivya18?s=21' name='Divya' role='Lead Developer and Artist' src='/assets/images/characters/2.jpeg' />
           <ProfileCard name='Windy' role='Junior Developer' src='/assets/images/characters/3.jpeg' />
           <ProfileCard handle='https://x.com/ciab0tta?s=21' name='Ciabot' role='Lead Solidity Developer' src='/assets/images/characters/4.jpeg' />
         </div>
-        <div className='w-full px-[5%] flex mt-[3%] justify-between'>
+        <div className='w-full px-[5%] md:flex-row md:mb-0 mb-[2rem] flex-col md:gap-0 gap-[2rem] md:items-start items-center flex mt-[3%] justify-between'>
           <ProfileCard name='Pranav' role='Head of Operations' src='/assets/images/characters/5.jpeg' />
           <ProfileCard name='Sorcerer' role='Head of Community' src='/assets/images/characters/6.jpeg' />
           <ProfileCard handle='https://x.com/pingugems?s=21' name='Pingu' role='Advisor' src='/assets/images/characters/7.jpeg' />
           <ProfileCard handle='https://x.com/berniefrogger?s=21' name='BernieFrogger' role='Advisor' src='/assets/images/characters/8.jpeg' />
         </div>
-        <div className='w-full px-[5%] flex mt-[3%] justify-center'>
+        <div className='w-full px-[5%] md:flex-row md:mb-0 mb-[2rem] flex-col md:gap-0 gap-[2rem] md:items-start items-center flex mt-[3%] justify-center'>
           <ProfileCard name='CryptoSimon' role='Advisor' src='/assets/images/characters/5.jpeg' />
         </div>
       </div>

@@ -10,9 +10,9 @@ const NavBar = (props: Props) => {
     <div className='glass w-full h-[100px] flex items-center justify-between px-[5%]'>
       <Link href='/'>
 
-        <Image alt='Panoverse Logo' src='/assets/images/logo.png' width={50} height={50} />
+        <Image className='md:h-[50px] h-[30px] w-auto' alt='Panoverse Logo' src='/assets/images/logo.png' width={50} height={50} />
       </Link>
-      <div className='flex gap-[2rem]'>
+      <div className='hidden md:flex gap-[2rem]'>
         <NavLink href='/about'>about</NavLink>
         <NavLink href='/updates'>roadmap</NavLink>
         <NavLink href='/updates'>updates</NavLink>

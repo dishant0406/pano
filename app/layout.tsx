@@ -25,12 +25,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={roboto.className}>
-        <div className='md:hidden h-[100vh] w-[100vw] flex items-center flex-col gap-[1rem] justify-center'>
+        {/* <div className='md:hidden h-[100vh] w-[100vw] flex items-center flex-col gap-[1rem] justify-center'>
           <img src='/assets/images/logo.png' alt='logo' className='w-[3rem] h-[3rem]' />
           <p className='text-white text-center text-[2rem]'>Mobile View Not Supported</p>
           <p className='text-white text-center text-[1rem]'>Please use a desktop browser to view this site</p>
-        </div>
-        <div className='md:block hidden'>
+        </div> */}
+        <div className=''>
           {children}
         </div>
       </body>

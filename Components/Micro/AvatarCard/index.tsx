@@ -26,7 +26,7 @@ const AvatarCard = ({
       setIsHover(true)
     }} onMouseLeave={() => {
       setIsHover(false)
-    }} style={cardStyles} className='min-h-[45vh] transition-all duration-300 hover:shadow-[0px_0px_45px_2px_rgba(244,_197,_92,_0.25)] cursor-pointer border border-white hover:border-[#F7D079] p-[1rem] w-[17vw]'>
+    }} style={cardStyles} className='min-h-[45vh] transition-all duration-300 hover:shadow-[0px_0px_45px_2px_rgba(244,_197,_92,_0.25)] cursor-pointer border border-white hover:border-[#F7D079] p-[1rem] w-[80vw] md:w-[17vw]'>
       <Image src={
         isHover ? gif ? gif : src : src
       } height={300} width={300} className='w-full rounded-[12.5px] object-cover h-[30vh]' alt='Martaverse' />

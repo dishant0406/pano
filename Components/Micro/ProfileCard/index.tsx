@@ -19,7 +19,7 @@ const ProfileCard = ({
   src
 }: Props) => {
   return (
-    <div style={cardStyles} className='min-h-[45vh] transition-all duration-300 hover:shadow-[0px_0px_45px_2px_rgba(244,_197,_92,_0.25)] cursor-pointer border border-white hover:border-[#F7D079] p-[1rem] w-[17vw]'>
+    <div style={cardStyles} className='min-h-[45vh] transition-all duration-300 hover:shadow-[0px_0px_45px_2px_rgba(244,_197,_92,_0.25)] cursor-pointer border border-white hover:border-[#F7D079] p-[1rem] w-[85vw] md:w-[17vw]'>
       <Image src={src} height={300} width={300} className='w-full rounded-[12.5px] h-auto' alt='Martaverse' />
       <div className='flex justify-between px-[2%] w-full mt-[5%]'>
         <p className='text-white text-[1.5rem] font-medium'>{name}</p>
