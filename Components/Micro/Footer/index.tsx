@@ -30,6 +30,7 @@ const Footer = (props: Props) => {
           <NavLink href='/updates'>Updates</NavLink>
           <NavLink href='/'>Contact</NavLink>
           <NavLink href='/about'>About</NavLink>
+          <NavLink href='/otsea'>OTSEA</NavLink>
         </div>
       </div>
       <div className='w-full flex justify-end gap-[2rem] my-[2rem]'>

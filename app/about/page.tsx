@@ -104,7 +104,7 @@ const Commnity = (props: Props) => {
         </p>
         <div className='w-full px-[5%] md:mb-0 mb-[2rem] md:flex-row flex-col md:gap-0 gap-[2rem] md:items-start items-center flex mt-[3%] justify-between'>
           <ProfileCard handle='https://x.com/panoramic_art?s=21' name='Nishant' role='Founder & lead artist' src='/assets/images/characters/1.jpeg' />
-          <ProfileCard handle='https://x.com/meenadivya18?s=21' name='Divya' role='Lead Developer and Artist' src='/assets/images/characters/2.jpeg' />
+          <ProfileCard handle='https://x.com/meenadivya18?s=21' name='Divye' role='Lead Developer and Artist' src='/assets/images/characters/2.jpeg' />
           <ProfileCard name='Windy' role='Junior Developer' src='/assets/images/characters/3.jpeg' />
           <ProfileCard handle='https://x.com/ciab0tta?s=21' name='Ciabot' role='Lead Solidity Developer' src='/assets/images/characters/4.jpeg' />
         </div>

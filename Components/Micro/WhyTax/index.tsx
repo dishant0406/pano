@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 type Props = {}
@@ -21,9 +22,14 @@ const WhyTax = (props: Props) => {
           <p className='text-white text-center z-[1] text-[2vh] md:text-[2.5vh]'>
             In the development of the game , aiding in community development, supporting <br />artists by purchasing art and marketing of the whole project.
           </p>
-          <a href='https://app.uniswap.org/swap?&chain=mainnet&use=v2&outputCurrency=0x3850952491606a0e420eb929b1a2e1a450d013f1' target='__blank' className='px-[3rem] transition-all duration-300 hover:shadow-[0px_0px_45px_2px_rgba(244,_197,_92,_0.25)] rounded-[3rem] py-[1rem] text-white bg-[#fcc054] mt-[5%] z-[1] text-center text-[2.5vh]'>
-            Buy
-          </a>
+          <div className='flex gap-[2rem]  items-center'>
+            <a href='https://app.uniswap.org/swap?&chain=mainnet&use=v2&outputCurrency=0x3850952491606a0e420eb929b1a2e1a450d013f1' target='__blank' className='px-[3rem] transition-all duration-300 hover:shadow-[0px_0px_45px_2px_rgba(244,_197,_92,_0.25)] rounded-[3rem] py-[1rem] text-white bg-[#fcc054] mt-[5%] z-[1] text-center text-[2.5vh]'>
+              Buy
+            </a>
+            <Link href='/otsea' className='px-[3rem] transition-all duration-300 hover:shadow-[0px_0px_45px_2px_rgba(244,_197,_92,_0.25)] rounded-[3rem] py-[1rem] text-white bg-[#fcc054] mt-[5%] z-[1] text-center text-[2.5vh]'>
+              Buy with OTSEA
+            </Link>
+          </div>
 
         </div>
       </div>
