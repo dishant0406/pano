@@ -13,7 +13,7 @@ const OTSEA = (props: Props) => {
           style={{ borderRadius: 24 }}
           width={400} height={540}
           allow="ethereum"
-          src="https://otsea.io/mini-market?tokenAddress=0x37DA9DE38c4094e090c014325f6eF4baEB302626"
+          src="https://otsea.io/mini-market?tokenAddress=0x3850952491606A0E420Eb929B1a2E1A450d013F1"
         />
       </div>
       <Footer />
